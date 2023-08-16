@@ -21,12 +21,12 @@ function App() {
         <a href='https://www.cypress.io' target='_blank'>
           <img
             src={dark ? cypressLightLogo : cypressDarkLogo}
-            className='logo'
+            className='logo cypress'
             alt='Cypress logo'
           />
         </a>
       </div>
-      <h1>Vite + React + Cypress</h1>
+      <h1 data-cy='heading'>Vite + React + Cypress</h1>
       <div className='card'>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
