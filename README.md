@@ -1,8 +1,22 @@
 # React-Vite-Cypress
 
-### **Technologies Used:**  [Vite](https://vitejs.dev/) + [React](react.dev) + [Typescript](https://www.typescriptlang.org) + [Cypress](https://www.cypress.io/)
+### Technologies Used:
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Cypress](https://www.cypress.io/)
 
-### Project Setup:
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Getting Started](#getting-started)
+  - [Clone the Repository](#clone-the-repository)
+  - [Install Dependencies](#install-dependencies)
+  - [Start the Development Server](#start-the-development-server)
+- [Writing Test Cases](#writing-test-cases)
+  - [Component-Level Tests](#component-level-tests)
+  - [End-to-End Tests](#end-to-end-tests)
+
+### Getting started:
 - Clone the repo: https://github.com/Rutvi25/React-Vite-Cypress/tree/dev
 - run `npm i` or `npm install` for installing dependencies.
 - run `npm run dev` to start the development server.
