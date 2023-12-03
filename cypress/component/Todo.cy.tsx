@@ -1,10 +1,9 @@
-describe('Todo Application', () => {
-  beforeEach(() => {
-    cy.visit('/');
-  });
+import * as React from 'react';
+import TodoList from '../../src/components/TodoList';
 
-  it('should render the heading from App Component', () => {
-    cy.get('[data-cy=heading]').contains('Todo Application');
+describe('TodoList Component', () => {
+  beforeEach(() => {
+    cy.mount(<TodoList />);
   });
 
   it('should show an alert upon adding an empty todo', () => {
