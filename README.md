@@ -17,14 +17,14 @@
   - [End-to-End Tests](#end-to-end-tests)
 
 ### Getting started:
-- Clone the repo: https://github.com/Rutvi25/React-Vite-Cypress/tree/dev
+- Clone the repo: https://github.com/Rutvi25/React-Vite-Cypress
 - run `npm i` or `npm install` for installing dependencies.
 - run `npm run dev` to start the development server.
 
 ### Writing the test cases:
 - Create the files and the component level test cases and end-to-end test cases in `cypress/component/` and `cypress/e2e/` as per the requirements.
   
-  ##Component-Level Tests
+  ## Component-Level Tests
 
   To write component-level tests in TypeScript, follow these steps:
 
