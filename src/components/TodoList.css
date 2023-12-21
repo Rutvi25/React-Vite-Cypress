@@ -1,0 +1,28 @@
+.create-todo {
+  margin-bottom: 20px;
+}
+
+.create-todo input {
+  padding: 8px;
+  margin-right: 8px;
+  border-radius: 5px;
+}
+
+.create-todo button {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todo-item {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-task-btn {
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}

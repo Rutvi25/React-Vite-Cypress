@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h2 data-cy='heading'>Todo Application</h2>
-      <TodoList />;
+      <TodoList />
     </>
   );
 }

@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import './TodoList.css';
+
 const TodoList = () => {
   const [taskTitle, setTaskTitle] = useState('');
   const [todoListItems, setTodoListItems] = useState<
@@ -36,19 +38,18 @@ const TodoList = () => {
         </button>
       </div>
       <div data-cy='todo-item-list'>
-        {todoListItems.map((todo) => {
-          return (
-            <div className='todo-item' key={todo.key}>
-              <div>{todo.task}</div>
-              <button
-                data-cy='delete-task-btn'
-                onClick={() => handleDeleteTodo(todo.key)}
-              >
-                Delete
-              </button>
-            </div>
-          );
-        })}
+        {todoListItems.map((todo) => (
+          <div className='todo-item' key={todo.key}>
+            <div>{todo.task}</div>
+            <button
+            className='delete-task-btn'
+              data-cy='delete-task-btn'
+              onClick={() => handleDeleteTodo(todo.key)}
+            >
+              Done
+            </button>
+          </div>
+        ))}
       </div>
     </>
   );
