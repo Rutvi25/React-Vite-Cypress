@@ -6,7 +6,7 @@
 - [Typescript](https://www.typescriptlang.org/)
 - [Cypress](https://www.cypress.io/)
 
-## Project Setup:
+### Project Setup:
 
 **Clone the Repo:**
 ```bash
