@@ -1,63 +1,62 @@
-# React-Vite-Cypress
+# React-Vite-Cypress Boilerplate
 
-### Technologies Used:
+[Cypress](https://www.cypress.io/) is a powerful end-to-end testing framework designed to make testing web applications faster and easier.
+
+## Technologies Used:
 - [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Cypress](https://www.cypress.io/)
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Getting Started](#getting-started)
-  - [Clone the Repository](#clone-the-repository)
-  - [Install Dependencies](#install-dependencies)
-  - [Start the Development Server](#start-the-development-server)
-- [Writing Test Cases](#writing-test-cases)
-  - [Component-Level Tests](#component-level-tests)
-  - [End-to-End Tests](#end-to-end-tests)
+## Project Setup:
 
-### Getting started:
-- Clone the repo: https://github.com/Rutvi25/React-Vite-Cypress
-- run `npm i` or `npm install` for installing dependencies.
-- run `npm run dev` to start the development server.
+**Clone the Repo:**
+```bash
+git clone https://github.com/Rutvi25/React-Vite-Cypress
+```
+**Install Dependencies**
+```bash
+npm install
+```
+**Start the Development Server**
+```bash
+npm run dev
+```
 
-### Writing the test cases:
-- Create the files and the component level test cases and end-to-end test cases in `cypress/component/` and `cypress/e2e/` as per the requirements.
-  
-  ## Component-Level Tests
+## Writing the Test Cases:
+- Navigate to the `/cypress` directory.
 
-  To write component-level tests in TypeScript, follow these steps:
-
-  1. Create test files in the cypress/component/ directory with a .ts extension.
-  2. Use Cypress commands to interact with your React components.
-  3. Run tests using the Cypress Test Runner with the command:
-     `npm run cypress`
-  4. Choose the component tests in the Cypress Launchpad.
-
-  Example component-level test file (cypress/component/myComponent.spec.ts):
-  
-     ![image](https://github.com/Rutvi25/React-Vite-Cypress/assets/130761232/62489bc9-b71e-4fa4-b66f-54e111aee5bb)
-
-  5. Choose the testing types and launch the browser.
+- Write Component Level Test Cases
+   - Move to the `cypress/component/` directory
+   - Create a new test file with the `.ts` extension, and write the test cases according to requirements.
  
-  ## End-to-End Tests
-
-  For end-to-end tests in TypeScript, follow these steps:
-  1. Create test files in the cypress/e2e/ directory with a .ts extension.
-  2. Use Cypress commands to interact with your application as a whole.
-  3. Run tests using the Cypress Test Runner with the command:
-     `npm run cypress`
-  4. Choose the component tests in the Cypress Launchpad.
-
-  Example end-to-end test file (cypress/e2e/app.spec.ts):
+- Write End-to-End Test Cases
+   - Move to the `cypress/e2e/` directory
+   - Create a new test file with the `.ts` extension, and write the test cases according to requirements.
+ 
+### **Checkout the basic [Todos Application](https://github.com/Rutvi25/React-Vite-Cypress/tree/demo-app) for reference**
   
-    ![image](https://github.com/Rutvi25/React-Vite-Cypress/assets/130761232/56c78eaa-8293-4d0e-b9fc-31bc1f441099)
-
-  5. Choose the testing types and launch the browser.
-
-
-  ### Cypress Launchpad Screenshots
+## Running the Test Cases:
+**Launch the cypress to run test suite**
+```bash
+npm run cypress
+```
+**Select the test type**
   
-  ![image](https://github.com/Rutvi25/React-Vite-Cypress/assets/97082690/165e2654-c3d9-426a-a6f5-34aa8e5070bf)
-  ![image](https://github.com/Rutvi25/React-Vite-Cypress/assets/97082690/04961749-783c-431b-8bef-e24e27ecbd9f)
-  ![image](https://github.com/Rutvi25/React-Vite-Cypress/assets/97082690/df3d7f19-03c3-45ce-86bd-a94d0582a6f6)
+  ![Screenshot from 2023-12-21 14-32-00](https://github.com/Rutvi25/React-Vite-Cypress/assets/97082690/d25619c4-4a5c-4da6-a960-ae6d4afb8776)
+  
+**Select the browser**
+
+  ![image](https://github.com/Rutvi25/React-Vite-Cypress/assets/97082690/13f87c37-429f-47fc-9078-2a1cf6dc79b7)
+
+**Interact with test runner**
+
+Write & run tests, inspect DOM and use the Debugger
+
+       
+  ![image](https://github.com/Rutvi25/React-Vite-Cypress/assets/97082690/2e838a2c-149d-4344-a681-02e8b15563ee)
+
+### Demo
+https://github.com/Rutvi25/React-Vite-Cypress/assets/97082690/5740081c-1474-4f7f-80e3-f5937d0c01e7
+
+
